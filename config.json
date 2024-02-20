@@ -1,0 +1,19 @@
+{
+    "name": "ROBOTICS",
+    "description": "Thư viện để làm ứng dụng robotics với Yolo Uno",
+    "libs": [
+        "mpu6050.py",
+        "mpu9250.py",
+        "vector3d.py",
+        "robotics_angle_sensor.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+        "en": "languages/en.js",
+        "vi": "languages/vi.js"
+    },
+    "poster": "poster.png"
+}
