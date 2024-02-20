@@ -57,8 +57,6 @@ Blockly.Python["angle_sensor_init"] = function (block) {
   
   Blockly.Python.definitions_['import_angle_sensor'] = 'from angle_sensor import AngleSensor';
   Blockly.Python.definitions_['init_angle_sensor'] = 'angle_sensor = AngleSensor(imu)';
-  //Blockly.Python.definitions_['setup_robotics_angle_sensor_calib'] = 'await angle_sensor.calibrate(' + samples + ')';
-  //Blockly.Python.definitions_['setup_robotics_angle_sensor_start'] = 'await angle_sensor.start()';
 
   var code = 'await angle_sensor.calibrate(' + samples + ')\n' + 
     'await angle_sensor.start()\n';
