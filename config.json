@@ -1,5 +1,5 @@
 {
-    "name": "CẢM BIẾN GÓC",
+    "name": "MPU",
     "description": "Thư viện cảm biến góc dành cho Yolo Uno",
     "libs": [
         "mpu6050.py",

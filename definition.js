@@ -1,4 +1,4 @@
-var BlockColor = "#ff4ccd";
+var BlockColor = "#2ECC71";
 
 Blockly.Blocks['angle_sensor_init'] = {
   init: function () {
@@ -90,6 +90,7 @@ Blockly.Blocks["angle_sensor_get"] = {
 
 Blockly.Python["angle_sensor_get"] = function (block) {
   var axis = block.getFieldValue("AXIS");
+  Blockly.Python.definitions_['setup_angle_sensor'] = 'create_task(angle_sensor.run())';
   // TODO: Assemble Python into code variable.
   var code = "angle_sensor." + axis;
   return [code, Blockly.Python.ORDER_NONE];
