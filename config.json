@@ -1,6 +1,6 @@
 {
     "name": "MPU",
-    "description": "Thư viện cảm biến góc dành cho Yolo Uno",
+    "description": "Thư viện làm việc với MPU6050/9250 cho Yolo Uno",
     "libs": [
         "mpu6050.py",
         "mpu9250.py",
