@@ -5,7 +5,7 @@
         "mpu6050.py",
         "mpu9250.py",
         "vector3d.py",
-        "robotics_angle_sensor.py"
+        "angle_sensor.py"
     ],
     "blocks": [
         "definition.js"
